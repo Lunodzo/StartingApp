@@ -3,23 +3,23 @@ package com.model;
 public class DataItem {
     private String itemId;
     private String itemName;
-    private String description;
     private String category;
+    private String description;
     private String image;
     private int sortPosition;
     private double price;
 
-    public DataItem(String itemId, String itemName, String description, String category, String image, int sortPosition, double price) {
+    public DataItem(String itemId, String itemName, String category, String description,  String image, int sortPosition, double price) {
         this.itemId = itemId;
         this.itemName = itemName;
-        this.description = description;
         this.category = category;
+        this.description = description;
         this.image = image;
         this.sortPosition = sortPosition;
         this.price = price;
     }
 
-    public DataItem() {
+    public DataItem(String itemId, String quinoa_salmon_salad, String salads, String description, int i, int sortPosition, String s) {
     }
 
     public String getItemId() {
